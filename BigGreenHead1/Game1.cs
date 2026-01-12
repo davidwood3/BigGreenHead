@@ -19,7 +19,7 @@ public class Game1 : Game
     private Song song;  
     private BouncingHead head1, head2, head3;
     private BouncingHead[] heads;
-    int headCount = 10;
+    readonly int headCount = 10;
 
     private Random r = new Random();
     

@@ -14,3 +14,47 @@ git push -u origin main
 git remote add origin https://github.com/davidwood3/BigGreenHead.git
 git branch -M main
 git push -u origin main
+PS C:\Data\Monogame\CharlieUdemy\BigGreenHead1\BigGreenHead1> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   BigGreenHead1/Notes.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   BigGreenHead1/BouncingHead.cs
+        modified:   BigGreenHead1/Game1.cs
+        modified:   BigGreenHead1/Notes.txt
+
+PS C:\Data\Monogame\CharlieUdemy\BigGreenHead1\BigGreenHead1> git add .
+PS C:\Data\Monogame\CharlieUdemy\BigGreenHead1\BigGreenHead1> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   BigGreenHead1/BouncingHead.cs
+        modified:   BigGreenHead1/Game1.cs
+        new file:   BigGreenHead1/Notes.txt
+
+PS C:\Data\Monogame\CharlieUdemy\BigGreenHead1\BigGreenHead1> git commit -m "FinalBouncingHead"  
+[main 750b98a] FinalBouncingHead
+ 3 files changed, 154 insertions(+), 21 deletions(-)
+ create mode 100644 BigGreenHead1/Notes.txt
+PS C:\Data\Monogame\CharlieUdemy\BigGreenHead1\BigGreenHead1> git push origin main
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.37 KiB | 2.37 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/davidwood3/BigGreenHead.git
+   7d98499..750b98a  main -> main
+
+
+
+
